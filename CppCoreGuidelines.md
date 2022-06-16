@@ -5005,7 +5005,7 @@ allocations.  If a pointer or reference is owning, document it as owning.
 ##### Note
 
 Ownership should be clear in new code (and refactored legacy code) according to [R.20](#Rr-owner) for owned
-resources and [R.3](#Rr-ptr) for non-owned resources.
+pointers and [R.3](#Rr-ptr) for non-owned pointers.  References should never own [R.4](#Rr-ref).
 
 ##### Enforcement
 
